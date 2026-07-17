@@ -26,7 +26,7 @@ int main(){
     character = 'A';
 
 
-
+    printf("number is - %d\n", number );
 
     printf("fraction number is - %.3f\n", fraction);
     
