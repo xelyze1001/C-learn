@@ -16,6 +16,17 @@ Not equal to: a != b
 */
 
 int main(){
+    int x = 20;
+    int y = 10;
+
+    bool z = x > y;
+    
+    if (z)
+    {
+        printf("x is greater than y");
+    }
+    
+
     if (20>15)
     {
         printf(" is true");
@@ -26,13 +37,7 @@ int main(){
     }
 
 
-    int x = 20;
-    int y = 10;
-    bool z = x > y;
-    if (z)
-    {
-        printf("x is greater than y");
-    }
-    
+
+
     
 }
