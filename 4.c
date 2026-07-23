@@ -63,8 +63,18 @@ the total number of iterations of the innermost statement will be "3 * 3 = 9".*/
     printf("End of outer loop\n");
     
 
-
-
+/*Infinity loop:
+    while(1){
+        "code"
+    }
+    */
+    i = 0;
+    while (i<10)
+    {
+        i++;
+        printf("Hello World \n");
+    }
+    
     return 0;
 }
 

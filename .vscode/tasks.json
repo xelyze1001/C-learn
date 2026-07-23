@@ -1,15 +1,13 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
             "label": "C/C++: gcc.exe build active file",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "command": "powershell.exe",
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "-NoProfile",
+                "-Command",
+                "& 'C:\\w64devkit\\w64devkit\\bin\\gcc.exe' -fdiagnostics-color=always -g '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}.exe'"
             ],
             "options": {
                 "cwd": "${fileDirname}"
