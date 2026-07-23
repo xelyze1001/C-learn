@@ -44,6 +44,24 @@ while(expression){
     }
 printf("-----------------------------------------------------\n");
 
+//Nested Loops
+
+/*Nested for loops are very common. 
+If both the outer and inner loops are expected to perform three iterations each, 
+the total number of iterations of the innermost statement will be "3 * 3 = 9".*/
+
+
+    int j;
+    for (i = 1; i<= 3; i++)
+    {
+        for (j = 1; j <= 3; j++)
+        {
+            printf("i: %d, j: %d\n", i, j);
+        }
+        printf("End of inner loop \n\n");
+    }
+    printf("End of outer loop\n");
+    
 
 
 
